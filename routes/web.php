@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
-
+use \App\Http\Controllers\HomeController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,10 +14,12 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/', [HomeController::class, 'index'])->name('home.index');
+Route::get('/profile', [HomeController::class, 'profile'])->name('home.profile');
+Route::get('/education', [HomeController::class, 'education'])->name('home.education');
+Route::get('/experience', [HomeController::class, 'experience'])->name('home.experience');
+Route::get('/knowledge', [HomeController::class, 'knowledge'])->name('home.knowledge');
+
+
