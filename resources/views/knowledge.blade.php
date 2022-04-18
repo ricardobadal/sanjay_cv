@@ -1,17 +1,22 @@
 @extends('layouts.app')
+
 @section('content')
-<h3>Vaardigheden:</h3>
+<div class="container info">
+    <h4>Vaardigheden:</h4>
     <pre>
-        Windows 7/10
-        Linux (Ubuntu & Fedora)
-        OS X
-        Microsoft Office
-        Adobe Photoshop
-        HTML & CSS
-        JavaScript & VueJS
-        Composer NPM
-        PHP & Laravel
-        MySQL & PhpMyAdmin
-        Git
+        <ul>
+            <li>Windows 7/10</li>
+            <li>Linux (Ubuntu & Fedora)</li>
+            <li>OS X</li>
+            <li>Microsoft Office</li>
+            <li>Adobe Photoshop</li>
+            <li>HTML & CSS</li>
+            <li>JavaScript & VueJS</li>
+            <li>Composer NPM</li>
+            <li>PHP & Laravel</li>
+            <li>MySQL & PhpMyAdmin</li>
+            <li>Git</li>
+        </ul>
     </pre>
+</div>
 @endsection

@@ -1,22 +1,32 @@
 @extends('layouts.app')
+
 @section('content')
-<h3>Opleiding:</h3>
+<div class="container info">
+    <h4>Opleiding:</h4>
     <pre>
-        <h5>Code Gorilla Bootcamp:</h5>
-        HTML & css
-        JavaScript & VueJS
-        PHP, PHP-OOP & Laravel
-        Composer NPM
-        MySQL & PhpMyAdmin
-        Git
-        <h5>Administratief Medewerker: Centrum Vakopleiding</h5>
-        Secretariaat
-        Receptie
-        Logistiek
-        Boekhouden
-        Microsoft Office
-        
-        <h5>Webdesign: Compart Groningen</h5>
-        Html & PHP
+        <h6>Code Gorilla Bootcamp:</h6>
+        <ul>
+            <li>HTML & css</li>
+            <li>JavaScript & VueJS</li>
+            <li>PHP, PHP-OOP & Laravel</li>
+            <li>Composer NPM</li>
+            <li>MySQL & PhpMyAdmin</li>
+            <li>Git</li>
+        </ul>
+
+        <h6>Administratief Medewerker: Centrum Vakopleiding</h6>
+        <ul>
+            <li>Secretariaat</li>
+            <li>Receptie</li>
+            <li>Logistiek</li>
+            <li>Boekhouden</li>
+            <li>Microsoft Office</li>
+        </ul>
+
+        <h6>Webdesign: Compart Groningen</h6>
+        <ul>
+            <li>Html & PHP</li>
+        </ul>
     </pre>
-    @endsection
+</div>
+@endsection
