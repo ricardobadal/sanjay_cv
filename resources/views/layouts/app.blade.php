@@ -46,56 +46,14 @@
                 </li>
             </ul>
         </nav>
-
         <div class="container">
-            <h4>Ricardo Sanjay Badal</h4>
-            <!-- Button to Open the Modal -->
-            <button type="button" class="btn btn-primary shadow" data-toggle="modal" data-target="#myModal">
-                Persoonlijke Gegevens
-            </button>
-
-            <!-- The Modal -->
-            <div class="modal fade" id="myModal">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-
-                        <!-- Modal Header -->
-                        <div class="modal-header">
-                            <h4 class="modal-title">Ricardo Sanjay Badal</h4>
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        </div>
-
-                        <!-- Modal body -->
-                        <div class="modal-body shadow">
-                            <dl>
-                                <dd>Roepnaam: Sanjay</dd>
-                                <br>
-                                <dd>Toppingaheerd 19</dd>
-                                <dd>9737 TR Groningen</dd>
-                                <dd></i>
-                                <dd><i><a href="mailto:ricardobadal@gmail.com">Email</a></i></dd>
-                                <br>
-                                <dd>Geboren: 25-Mei-1978 te Paramaribo</dd>
-                                <dd>Nationaliteit: Nederlandse</dd>
-                                <dd>Rijbewijs: Geen</dd>
-                                <br>
-                                <dd><i><a href="https://www.linkedin.com/in/rsbadal/">LinkedIn</a></i></dd>
-                                <dd><i><a href="https://github.com/ricardobadal/">Git</a></i></dd>
-                            </dl>
-                        </div>
-
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-4">
+                    @include('info')
                 </div>
-            </div>
-        </div>
-        <br>
-        <div class="card" style="width:100%">
-            <div class="card-body">
-                @yield('content')
+                <div class="col-8">
+                    @yield('content')
+                </div>
             </div>
         </div>
     </div>
