@@ -1,14 +1,18 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container info">
+<div>
     <h4>Profiel:</h4>
-    <pre>
-        Sociaal, behulpzaam, creatief en enthousiast met passie voor ICT (hardware & software).
-        Ik wil mij graag verder verdiepen in webdesign, programmeren, netwerkbeheer, systeembeheer en
-        troubleshooting.
-        Tijdens mijn deelname aan de Bootcamp bij Code Gorilla heb ik ontdekt dat ik me veel meer wil verdiepen in
-        het Laravel Framework.
-    </pre>
+    Positieve attitude,<br>
+    sociaal & behulpzaam,<br>
+    leergierig en ambitieus,<br>
+    Passie voor ICT hardware & software.<br>
+    Ik wil mij graag verder verdiepen in programmeren, netwerkbeheer, systeembeheer en troubleshooting.<br>
+    <br>
+    De Bootcamp bij CodeGorilla heeft mij geleerd dat ik mij het best thuisvoel in gericht programmeren.<br>
+    Daarmee bedoel ik dat ik mij graag verdiep in de taal waar ik mee werk, bijvoorbeeld PHP.<br>
+    Mijn doel is om mij ergens gericht in te kunnen specialiseren. Ik zie mijzelf daarom ook in de toekomst andere
+    Junior
+    Developers begeleiden met mijn opgebouwde kennis.<br>
 </div>
 @endsection
