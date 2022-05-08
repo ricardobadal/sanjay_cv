@@ -11283,16 +11283,11 @@ textarea.form-control-lg {
   }
 }
 h4, .h4 {
-  background-color: #9584c5;
-  margin: 10px;
-  padding: 10px;
-  box-shadow: 0px 2px 5px -1px #000000;
+  background-color: #c6b8ee;
 }
 
 h6, .h6 {
   background-color: #b2c89b;
-  margin: 10px;
-  padding: 10px;
 }
 
 li {
